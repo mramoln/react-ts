@@ -1,0 +1,130 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "react-hooks", "jsx-a11y"],
+  "rules": {
+    // "react/jsx-filename-extension": 0,
+    // "no-console": 2,
+    // "react/prop-types": 0,
+    // "react/jsx-no-constructed-context-values": 0,
+    // "import/no-extraneous-dependencies": 0,
+    // Require braces around arrow function bodies.
+    "arrow-body-style": 0,
+    // Require parentheses around arrow function arguments.
+    "arrow-parens": 0,
+    // Enforce camelcase naming convention.
+    "camelcase": 2,
+    // Enforce that class methods utilize this.
+    "class-methods-use-this": 0,
+    // Require return statements to either always or never specify values
+    "consistent-return": 0,
+    // Require or disallow named function expressions.
+    "func-names": 0,
+    // Ensure consistent use of file extension within the import path.
+    "import/extensions": 0,
+    // Ensures an imported module can be resolved to a module on the local filesystem.
+    "import/no-unresolved": 0,
+    // Ensures to catch situations in which you've imported a dependency into your file that is not included in your project's package.
+    "import/no-extraneous-dependencies": 0,
+    // When there is only a single export from a module, prefer using default export over named export.
+    "import/prefer-default-export": 0,
+    // Enforce the consistent use of either double or single quotes in JSX attributes.
+    "jsx-quotes": 0,
+    //Enforce consistent spacing before and after keywords.
+    "keyword-spacing": 0,
+    // Enforce consistent linebreak style.
+    "linebreak-style": ["error", "unix"],
+    // Enforce a maximum number of classes per file.
+    "max-classes-per-file": 0,
+    // Disallow await inside of loops.
+    "no-await-in-loop": "error",
+    // Disallow the use of console.
+    "no-console": 1,
+    // Disallow duplicate case labels.
+    "no-duplicate-case": 0,
+    // Disallow reassigning function parameters.
+    "no-param-reassign": 0,
+    // Disallow the unary operators ++ and --
+    "no-plusplus": 0,
+    // Disallow calling some Object.prototype methods directly on objects.
+    "no-prototype-builtins": 0,
+    // Disallow assignment operators in return statements.
+    "no-return-assign": "off",
+    // Disallow unused variables.
+    "no-unused-vars": ["error"],
+    // Disallow the use of variables before they are defined.
+    "no-use-before-define": ["error", { "functions": false }],
+    // Disallow dangling underscores in identifiers
+    "no-underscore-dangle": "off",
+    // Enforce consistent line breaks after opening and before closing braces.
+    "object-curly-newline": 0,
+    // Enforce the consistent use of either backticks, double, or single quotes.
+    "quotes": [1, "single", { "allowTemplateLiterals": true }],
+    // Disallow missing displayName in a React component definition.
+    "react/display-name": ["off"],
+    // Enforce consistent usage of destructuring assignment of props, state, and context
+    "react/destructuring-assignment": [
+      1,
+      "always",
+      { "ignoreClassFields": true, "destructureInSignature": "ignore" }
+    ],
+    // Enforce a specific function type for function components.
+    "react/function-component-definition": 0,
+    // Disallow declaring unused methods of component class.
+    "react/no-unused-class-component-methods": 0,
+    "react/jsx-no-constructed-context-values": 0,
+    // Disallow file extensions that may contain JSX.
+    "react/jsx-filename-extension": 0,
+    // Enforce PascalCase for user-defined JSX components.
+    "react/jsx-pascal-case": 2,
+    // Disallow JSX prop spreading.
+    "react/jsx-props-no-spreading": 0,
+    // Disallow missing props validation in a React component definition.
+    "react/prop-types": 0,
+    // Enforce component methods order.
+    "react/sort-comp": 0,
+    // Enforce default props
+    "react/require-default-props": 0,
+    // Enforce to remove object as a prop-type
+    "react/forbid-prop-types": 0,
+    // Disallow usage of Array index in keys
+    "react/no-array-index-key": 0,
+    // Enforce a state to be in a constructor
+    "react/state-in-constructor": 0,
+    // Disallow unused expressions
+    "no-unused-expressions": 0,
+    // Disallow unnecessary escape characters
+    "no-useless-escape": 0,
+    // Require or disallow semicolons instead of ASI.
+    "semi": 1,
+    // Require or disallow strict mode directives.
+    "strict": ["error", "global"],
+    // Return inside each then().
+    "promise/always-return": 0,
+    // Missing an explicit type attribute for button
+    "react/button-has-type": 0,
+    // A control must be associated with a text label
+    "jsx-a11y/control-has-associated-label": 0,
+    // Avoid non-native interactive elements.
+    "jsx-a11y/click-events-have-key-events": 0,
+    // Avoid non-noninteractive-element-interactions.
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    // Static HTML elements do not have semantic meaning.
+    "jsx-a11y/no-static-element-interactions": 0
+  }
+}
