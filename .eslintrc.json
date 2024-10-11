@@ -12,13 +12,12 @@
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": "latest",
-    "sourceType": "module"
+    "ecmaVersion": "latest"
   },
   "plugins": ["react", "react-hooks", "jsx-a11y", "@typescript-eslint"],
   "rules": {
     // "react/jsx-filename-extension": 0,
-    // "no-console": 2,
+    "no-console": 1,
     // "react/prop-types": 0,
     // "react/jsx-no-constructed-context-values": 0,
     // "import/no-extraneous-dependencies": 0,
@@ -43,7 +42,7 @@
     // When there is only a single export from a module, prefer using default export over named export.
     "import/prefer-default-export": 0,
     // Enforce the consistent use of either double or single quotes in JSX attributes.
-    "jsx-quotes": 0,
+    "jsx-quotes": 1,
     //Enforce consistent spacing before and after keywords.
     "keyword-spacing": 0,
     // Enforce consistent linebreak style.
