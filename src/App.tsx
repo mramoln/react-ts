@@ -3,6 +3,7 @@ import { combiner } from './utils/combiner';
 
 const App = () => {
   const [count, setCount] = useState(0);
+  const [count2] = useState(0)
 
   const handleCounterClick = () => {
     setCount((prevCount) => prevCount + 1);
